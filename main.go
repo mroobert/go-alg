@@ -1,8 +1,13 @@
 package main
 
-import "github.com/mroobert/go-alg/search"
+import (
+	"github.com/mroobert/go-alg/list"
+)
 
 func main() {
 	//? Binary Search
-	search.BinarySearchMain()
+	//search.BinarySearchMain()
+
+	//? Linked List
+	list.LinkListMain()
 }
